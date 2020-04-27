@@ -66,4 +66,4 @@ def test_post_patient():
 def test_get_welcome():
     response = client.get('/welcome')
     assert response.status_code == 200
-    assert response.json() == {"message" : "welcome"}
+    assert response == "testy"

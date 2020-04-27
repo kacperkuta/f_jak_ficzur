@@ -66,6 +66,6 @@ def send_patient(pk: int):
 
 @app.get('/welcome')
 def welcome():
-    return {"message" : "welcome"}
+    return "testy"
 
 
